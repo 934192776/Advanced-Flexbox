@@ -28,7 +28,7 @@ h3 {
 
 .challenge-2 {
   display:flex;
-  justify-content:right;
+  justify-content:flex-end;
 }
 
 .challenge-3 {
@@ -38,11 +38,11 @@ h3 {
 
 .challenge-4 {
   display:flex;
-  justify-content: space-between;
 }
 
-.challenge {
+.challenge-4 div {
   border: 1px solid blue;
-  padding: 10px;
-  width: 33%;
+  padding: 20px;
+  flex:1;
+  text-align:center;
 }
